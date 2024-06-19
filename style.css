@@ -287,7 +287,7 @@ textarea {
     justify-content: space-around;
     align-items: center;
   }
-  form {
+  form fieldset {
     width: 30%;
   }
 }
