@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snowy Cream</title>
+    <link rel="shortcut icon" href="../media/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <div class="layout">
+    <body>
+      <header class="barsup">
+        <img src="../media/logo.png" alt="" class="logo" />
+        <nav class="botones">
+          <a class="pages" href="../index.html">Home</a>
+          <a class="pages" href="./aboutUs.html">About</a>
+          <a class="pages actual" href="./contact.html">Contact</a>
+          <a class="pages" href="./information.html">More Information</a>
+          <a class="pages" href="./benefitsTips.html">Benefits and Tips</a>
+          <a class="pages" href="#">Raffle</a>
+        </nav>
+      </header>
+      <main class="main_seis">
+        <div class="titulos">
+          <h1>Raffle</h1>
+          <h2>
+            You can collaborate to hold an exhibition event and participate in a
+            raffle to win an easel
+          </h2>
+        </div>
+        <div class="info_sorteo">
+          <form action="show_data.html" method="get">
+          <fieldset>
+            <label for="">
+              First Name
+              <input type="text" name="name" placeholder="Your name" class="full_line"/>
+            </label>
+            <label for="">
+              Last Name
+              <input type="text" name="lastname" placeholder="Your last name" class="full_line"/>
+            </label>
+            <label for="">
+              Choose Meet or Zoom
+              <select name="Platform" id="" class="full_line">
+                <option value="Meet">Meet</option>
+                <option value="Zoom">Zoom</option>
+              </select>
+            </label>
+            <label>
+              Choose Date
+              <input type="date" name="date" id="" value="2024-06-20" class="full_line"/>
+            </label>
+            Payment Options
+            <label>
+              <input type="radio" name="pay_metod" id="" value="Cash" />
+              Cash
+            </label>
+            <label>
+              <input type="radio" name="pay_metod" id="" value="Credit Card" />
+              Credit Card
+            </label>
+            <label>
+              <input type="radio" name="pay_metod" id="" value="Debit Card" />
+              Debit Card
+            </label>
+            <label>
+              Message(Opcional)
+              <textarea
+                name="Message"
+                id=""
+                cols="35"
+                rows="8"
+                placeholder="Your message"
+              ></textarea>
+              <label>
+                 I accept terms and conditions...
+                <input
+                  type="checkbox"
+                  name="terms_and_conditions"
+                  id=""
+                  value="Accept"
+                />
+              </label>
+              <button>submit</button>
+
+          </fieldset>
+        </form>
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74791.8554499797!2d-118.26137477826042!3d34.06017543776299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1718758736438!5m2!1ses-419!2sco" width="90%" height="170px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+    </main>
+      <footer class="footer">
+        <p>Created by : Jorge Lorduy</p>
+      </footer>
+    </body>
+  </div>
+</html>
